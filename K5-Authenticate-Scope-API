@@ -14,7 +14,7 @@ curl -i -X POST
     },
         "scope": {
             "project": {
-                "id": "PROJECTID"
+                "id": "CHANGEME"
             }
         }
   }
