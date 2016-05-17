@@ -3,4 +3,4 @@ curl -i \
   -H "Accepts: application/json"
   -H "X-Auth-Token: CHANGEME" \
   
-  https://identity.jp-west-1.cloud.global.fujitsu.com/v3/users/{user_id_CHANGEME}/projects ; echo
+  https://identity.jp-west-1.cloud.global.fujitsu.com/v3/users/{user_id}/projects ; echo
