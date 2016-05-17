@@ -1,5 +1,5 @@
-curl -i \
-  -H "Content-Type: application/json" \
+curl -i -X POST
+  -H "Content-Type: application/json" 
   -d '
 { "auth": {
     "identity": {
@@ -13,5 +13,5 @@ curl -i \
       }
     }
   }
-}' \
-  https://identity.jp-west-1.cloud.global.fujitsu.com/v3/auth/tokens ; echo
+}' 
+https://identity.jp-west-1.cloud.global.fujitsu.com/v3/auth/tokens ; echo
