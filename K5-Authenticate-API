@@ -1,1 +1,0 @@
-curl -i -X POST -H "Content-Type: application/json" -d "{ "auth": {"identity": {"methods": ["password"],"password": {"user": {"name": "CHANGEME","domain": { "name": "CHANGEME" },"password": "CHANGEME"}}}}}" https://identity.jp-west-1.cloud.global.fujitsu.com/v3/auth/tokens ; echo
