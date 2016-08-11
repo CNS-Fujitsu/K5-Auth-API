@@ -1,0 +1,15 @@
+# please change values to match your own details(this is for UK Region). Project ID can be 
+# found as an alphanueric string listed at the end of API endpoints in the Compute>Access&Security>API Access tab
+# e.g 7402cfcecd9z092ebcf6a287b1c5jw4f 
+
+export OS_USERNAME= your-user-name
+export OS_PASSWORD= your-password
+export OS_PROJECT_NAME= projectname-user-is-authorisaed-to-use  
+export OS_PROJECT_ID= projectID-user-is-authorisaed-to-use
+export OS_AUTH_URL=https://identity.uk-1.cloud.global.fujitsu.com/v3
+export OS_REGION_NAME=uk-1
+export OS_VOLUME_API_VERSION=2
+export OS_IDENTITY_API_VERSION=3
+export OS_USER_DOMAIN_NAME= your-contract-ID
+export OS_DEFAULT_DOMAIN= your-contract-ID
+
